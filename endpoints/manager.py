@@ -6,7 +6,7 @@ from typing import Dict, List
 
 
 class StaticTestManager:
-    def __init__(self, output_dir_root: str = "./output"):
+    def __init__(self, output_dir_root: str = "/tmp"):
         self.output_dir_root = output_dir_root
 
     def __get_static_test_dir(self, id: str) -> str:

@@ -19,7 +19,7 @@ class StaticTestProcessor:
         name: str,
         total_mass_loss: float,
         time_interval: float,
-        output_dir_root: str = "./output",
+        output_dir_root: str = "/tmp",
     ):
         self.name = name
         self.id = uuid.uuid4()
